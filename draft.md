@@ -26,10 +26,14 @@ author:
 
 --- abstract
 
-TODO
+This document introduces additional protected resource metadata parameters to
+signal support for token types and the supported algorithms used to verify those
+tokens.
 
 --- middle
 
 # Introduction
+
+OAuth 2.0 [{{!RFC6749}}]
 
 TODO
