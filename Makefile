@@ -1,9 +1,9 @@
 OUTDIR ?= _site
 
 all: $(OUTDIR) \
-	$(OUTDIR)/latest.xml \
-	$(OUTDIR)/latest.txt \
-	$(OUTDIR)/latest.html
+	$(OUTDIR)/index.xml \
+	$(OUTDIR)/index.html \
+	$(OUTDIR)/index.txt
 
 $(OUTDIR):
 	git worktree add -B gh-pages $@ origin/gh-pages
@@ -11,8 +11,8 @@ $(OUTDIR):
 $(OUTDIR)/%.xml: draft.md
 	kramdown-rfc $< >$@
 
-$(OUTDIR)/%.txt: $(OUTDIR)/%.xml
-	xml2rfc $< -o $@ --text
-
 $(OUTDIR)/%.html: $(OUTDIR)/%.xml
 	xml2rfc $< -o $@ --html
+
+$(OUTDIR)/%.txt: $(OUTDIR)/%.xml
+	xml2rfc $< -o $@ --text
