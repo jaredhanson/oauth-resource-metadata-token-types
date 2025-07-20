@@ -13,7 +13,9 @@ Expires: 21 January 2026
 
 Abstract
 
-   TODO
+   This document introduces additional protected resource metadata
+   parameters to signal support for token types and the supported
+   algorithms used to verify those tokens.
 
 About This Document
 
@@ -51,8 +53,6 @@ Status of This Memo
 
 
 
-
-
 Hanson                   Expires 21 January 2026                [Page 1]
 
 Internet-Draft            Token Types Supported                July 2025
@@ -75,26 +75,26 @@ Copyright Notice
 Table of Contents
 
    1.  Introduction  . . . . . . . . . . . . . . . . . . . . . . . .   2
+   2.  Normative References  . . . . . . . . . . . . . . . . . . . .   2
    Author's Address  . . . . . . . . . . . . . . . . . . . . . . . .   2
 
 1.  Introduction
 
+   OAuth 2.0 [[RFC6749]]
+
    TODO
+
+2.  Normative References
+
+   [RFC6749]  Hardt, D., Ed., "The OAuth 2.0 Authorization Framework",
+              RFC 6749, DOI 10.17487/RFC6749, October 2012,
+              <https://www.rfc-editor.org/rfc/rfc6749>.
 
 Author's Address
 
    Jared Hanson
    Keycard
    Email: jared@keycard.ai
-
-
-
-
-
-
-
-
-
 
 
 

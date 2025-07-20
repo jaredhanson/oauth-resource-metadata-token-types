@@ -34,7 +34,9 @@
 
 <?line 27?>
 
-<t>TODO</t>
+<t>This document introduces additional protected resource metadata parameters to
+signal support for token types and the supported algorithms used to verify those
+tokens.</t>
 
 
 
@@ -60,9 +62,11 @@
   <middle>
 
 
-<?line 31?>
+<?line 33?>
 
 <section anchor="introduction"><name>Introduction</name>
+
+<t>OAuth 2.0 [<xref target="RFC6749"/>]</t>
 
 <t>TODO</t>
 
@@ -75,6 +79,27 @@
 
 
 
+    <references title='Normative References' anchor="sec-normative-references">
+
+
+
+<reference anchor="RFC6749">
+  <front>
+    <title>The OAuth 2.0 Authorization Framework</title>
+    <author fullname="D. Hardt" initials="D." role="editor" surname="Hardt"/>
+    <date month="October" year="2012"/>
+    <abstract>
+      <t>The OAuth 2.0 authorization framework enables a third-party application to obtain limited access to an HTTP service, either on behalf of a resource owner by orchestrating an approval interaction between the resource owner and the HTTP service, or by allowing the third-party application to obtain access on its own behalf. This specification replaces and obsoletes the OAuth 1.0 protocol described in RFC 5849. [STANDARDS-TRACK]</t>
+    </abstract>
+  </front>
+  <seriesInfo name="RFC" value="6749"/>
+  <seriesInfo name="DOI" value="10.17487/RFC6749"/>
+</reference>
+
+
+
+
+    </references>
 
 
 
@@ -83,14 +108,17 @@
   </back>
 
 <!-- ##markdown-source:
-H4sIAD1mfWgAA42QQU8cMQyF7/4Vljhni+gtJ5BogVZoEazE2ZOY3XRn4pXj
-gIZfTzKz16q9Ptvfe37OObBkI3vc3lQ74NXmEp9UjINxxGcuUjUwPrJRJCPc
-yZEz7uYTF3ypp5No2wMaBuV3/5dpIOO96OyxWASIEjJNzTEqvZk7UC6SnVCz
-d3o2dNPZ0FlHOutINzZQMSh1mFIpSXKXPT782P2EXKeB1UM7Yg9BcuFcavFo
-Whlatu9AyuTxhUPVZDN8iB73KvXk8ZUH7O+Lpk+yBl46kCAjHHlui9EDosMl
-JLxzrtyFf18jrhFfm1fKe7zrF02dKI1+xV0ntreN6L4Dkx3q4PFPixrXYr79
-RzEAtNivIddyf3UE3i+MJiM2B4+/eQ6kcRF4DbF4XR/XwYYSgHMOaSimFAxg
-t73drtqUYhwZ4AIfsqnEGvqz540v96oFMkoCAAA=
+H4sIANNsfWgAA42STY8TMQyG7/4VRpxTECAQOS0CFhaEinYr7WHFwTNx29CZ
+ZOQ4RcNq/zuemRZOCI7xx/s+duycA43ascf1m6p7fLZ6il8lK7fKAa+55Cot
+4xdWCqSEm3zghJtx4II3dRiyWB1Q0wgf/V+yLSnvsoweiwaAkNtEvTkGoa26
+PaWSk8tk9k5Ohq4/GTqdJJ1Okq4zoaJQatPHUmJOU9jj1fvNJaTaNywerIk9
+tDkVTqUWjyqVwdieAwmTxxtuq0Qd4UeWw05yHTzecoPT+FniT1ITnneQ29zB
+gUcrDB4QHc6QcORUeQr8uxtxQbw1r5h2+GHqsGhPsfOL3EVk3a6y7CbBqPva
+ePxuqGFZzJP/WAwAzfYL5LLcT5MEfpw1LIxoDh4/89iShDnAC8TsdXFYEiuK
+AM45pKaoUKsAm30saH9We06KMankUFv7YAohTtNSh8Pvizlz4pkTBxIDUpaC
+mqHE3dRQluPAbRacB5n3ZJopoO75nDdB6ux0bC19wVrsrRmPLHE7Wl0uDHN3
+WS3UfQyhY4DHeHXinAAB/tz23f39o+vLty9fvXj98PDNplu/W8MvFMBb/QYD
+AAA=
 
 -->
 
